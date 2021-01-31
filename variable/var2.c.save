@@ -1,0 +1,18 @@
+#include<stdio.h>
+int fun()
+{
+
+int a=1;
+static int b=1;
+printf("%d,%d",a,b);
+
+}
+
+int main()
+{
+printf("%d
+',fun());
+printf("%d,%d",fun());
+return 0;
+
+}
