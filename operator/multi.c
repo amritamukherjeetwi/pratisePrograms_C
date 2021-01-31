@@ -22,7 +22,7 @@ for (int j = 0; j < 2; j++)
  {
  add[i][j] = a[i][j] + b[i][j];
  printf("\nSum Of Matrix:");
- printf("%.d\n", add[i][j]);
+ printf("%d\n", add[i][j]);
 }
  printf("\n");
  }
